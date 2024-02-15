@@ -1,16 +1,16 @@
 // IF statement
-// const age = 18
+const ageOne = 18
 
-// const bianca =12
+const bianca =12
 
-// if (bianca > age){
+if (bianca > ageOne){
     
-//     console.log("You have been granted Admission")
-// }else if(bianca === age){
-//     console.log("your admission has been postponed till next year")
-// }else{
-//     console.log("wait till you are above 18")
-// }
+    console.log("You have been granted Admission")
+}else if(bianca === ageOne){
+    console.log("your admission has been postponed till next year")
+}else{
+    console.log("wait till you are above 18")
+}
 
 // TRUTHY AND FALSY VALUES
 
@@ -22,62 +22,62 @@
 // undefined
 // NaN
 
-// if (undefined){
-//     console.log('truth value')
-// }else{
-//     console.log('falsy value')
-// }
+if (undefined){
+    console.log('truth value')
+}else{
+    console.log('falsy value')
+}
 
-// const password = "rapp"
-// const email = "anate@gmail.com"
+const password = "rapp"
+const email = "anate@gmail.com"
 
-// if (password && email){
-//     console.log("Login Approved")
-// }else if(password || email){
-//     console.log("password and email must be provided")
-// }else{
-//     console.log("unapproved!!!")
-// }
+if (password && email){
+    console.log("Login Approved")
+}else if(password || email){
+    console.log("password and email must be provided")
+}else{
+    console.log("unapproved!!!")
+}
 
 // create a good morning message if the time is less than 10:00am.
 // if not, but the time is less than 20;00, create a good day message, otherwise good evening.
 
-// let time = 10
+let time = 10
 
 
-// if (time < 10){
-//     console.log("Good morning")
-// }else if(time < 20){
-//     console.log("Good day")
-// }else{
-//     console.log("Good evening")
-// }
+if (time < 10){
+    console.log("Good morning")
+}else if(time < 20){
+    console.log("Good day")
+}else{
+    console.log("Good evening")
+}
 
-// time = 9
-// if (time < 10){
-//     console.log("Good morning")
-// }else if(time < 20){
-//     console.log("Good day")
-// }else{
-//     console.log("Good evening")
-// }
+time = 9
+if (time < 10){
+    console.log("Good morning")
+}else if(time < 20){
+    console.log("Good day")
+}else{
+    console.log("Good evening")
+}
 
-// time = 20
-// if (time < 10){
-//     console.log("Good morning")
-// }else if(time < 20){
-//     console.log("Good day")
-// }else{
-//     console.log("Good evening")
-// }
+time = 20
+if (time < 10){
+    console.log("Good morning")
+}else if(time < 20){
+    console.log("Good day")
+}else{
+    console.log("Good evening")
+}
 
-// const times = "good morning"
+const times = "good morning"
 
-// if (!times){
-//     console.log("good afternoon")
-// }else{
-//     console.log(times)
-// }
+if (!times){
+    console.log("good afternoon")
+}else{
+    console.log(times)
+}
 
 let temperature = 25
 
