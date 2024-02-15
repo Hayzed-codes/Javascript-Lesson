@@ -232,5 +232,6 @@ const mage = 45;
 
 let age = 20
 
-let canVote = age === 18 ? "YES you can vote!" : age < 18 ? "NO you can't vote" : "Yes it is possible"
+canVote = age === 18 ? "YES you can vote!" : age < 18 ? "NO you can't vote" : "Yes it is possible"
 console.log(canVote)
+
