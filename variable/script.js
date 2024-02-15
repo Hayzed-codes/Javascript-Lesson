@@ -1,7 +1,7 @@
 // Variables. 
 
 // let - this would allow you to change the variable value
-// const - whatever you add to const would remain, it can not change unlike let which is why it is contsant
+// const - whatever you add to const would remain, it can not change unlike let which is why it is constant
 
 let message = "Hello Eef!"
 message = "Hello Zainab!"
