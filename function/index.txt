@@ -1,0 +1,31 @@
+ Funtion is a block of code designed to perform a particular task
+Function is about two basic terms: 
+Function declaration
+Function call
+function is a reserved ketyword for creating a function
+
+parameter is used when declaring a function
+argument is passed when calling a funtion
+
+Function can be declared in 3 ways
+Function declaration
+Function expression
+Arrow function
+
+
+// FUNCTION DECLARATION
+
+function square(number){ //params is passed in the parenthesis
+    //statement
+}
+square() //Function call/ invocation 
+
+Function expression is when you save a function declaration in a variable
+const nameFunction = function(params) {}
+
+//Arrow Declaration
+An Arrow function in javascript is a simple way to write function expression. 
+const arrowFn = () => {}
+
+return is used to specify the value that should be returned when the funtion is called or revoked
+
