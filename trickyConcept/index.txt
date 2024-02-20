@@ -1,0 +1,24 @@
+                        
+js scope allows us know where we have access to our variables
+Advantages & Disadvantages of using global variables
+
+Advantages of using global variables
+1. You can access the global variables from all the functions in a program
+2. It is ideally used for storing constant as it helps to keeps consistency
+3. it is useful when multiple functions are accessing the same data
+
+Disadvantages of using global variables
+1. Too many variables declared as global, then they remain in the memory till program execution is completed. This can cause out of memory issue
+2. It may give unpredictable results in multi-tasking environment
+3. If global variables are discontinued, due to code refactoring. You will need to change all the modules where they are called
+
+Advantages Local scope
+1. Variables declared/designed inside a function are in the local scope.  
+2. Local variables offer a guarantee thhat the variables declared will remain intact while the task is running
+3. they are deleted as soon as any function is over and release the memory space which it occupies
+
+Disadvantages
+1. They have a very limited scope
+
+Block scope
+These are variables that are defined within a block

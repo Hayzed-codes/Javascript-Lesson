@@ -1,0 +1,14 @@
+index starts counting from 0
+lenght starts counting from 1 . This method is used to get the length of a string or array
+
+to change a case from lower case to uppercase can be done by consoling the word and including the .toUpperCase(). Same goes to the lower case .toLowerCase()
+console.log(reveal.toUpperCase)
+
+To check the index of a substring or position of a word in a sentence, we do that by adding ".indexOf" to our console. eg = man.indexOf
+To check the second index of a substring or position of a word in a sentence, we do that by adding ".lalstIndexOf" to our console. eg : const main = man.lastIndexOf('Javascript')
+
+To check if a word starts with something, we use the "startWith" function. eg : man.startsWith
+To check if a word ends with something, we use the "endsWith" function. eg : man.endsWith
+
+
+To check if a sentence includes a particular word, we use "const check = man.includes('favorite')"
