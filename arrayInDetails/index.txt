@@ -1,1 +1,7 @@
 [] => This is called an Array []
+typeof is used to check the type of element you have
+Array is an object
+
+for of loop also works like for loop
+
+Replace: 
