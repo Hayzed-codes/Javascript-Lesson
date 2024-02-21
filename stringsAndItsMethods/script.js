@@ -74,3 +74,39 @@ const ending = man.endsWith('Javascript')
 console.log(check)
 console.log(starting)
 console.log(ending)
+
+// GETTING A SUBSTRING
+//Slice Method
+
+const exampleString = "Hotdog"
+console.log(exampleString.slice(0, 3))
+console.log(exampleString.slice(3))
+console.log(exampleString.slice(-1))
+
+// Split Method
+
+const sentenceOne = 'The quick brown fox jumped over the lazy dog';
+console.log(sentenceOne.split(' '));
+
+// const nameThree = 'Nofisat and Zainab'
+// const split11 = nameThree.split(' ')
+// console.log(split11);
+
+// Reverse() and Join() Menthod
+const nameTwo = 'Nofisat and Zainab'
+const split1 = nameTwo.split(' ')
+console.log(split1);
+
+const reverse$ = split1.reverse()
+console.log(reverse$);
+
+const joinOne = reverse$.join(' ')
+console.log(joinOne)
+
+// Repeat() Method
+
+const dogSays = "woof "
+console.log(dogSays.repeat(6))
+
+//Trim () Method
+
