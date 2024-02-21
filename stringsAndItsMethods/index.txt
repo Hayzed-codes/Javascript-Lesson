@@ -13,13 +13,19 @@ To check if a word ends with something, we use the "endsWith" function. eg : man
 
 To check if a sentence includes a particular word, we use "const check = man.includes('favorite')"
 
-
+SLICE() METHOD
 we use "Slice method" to get a substring
 
+SPLIT () METHOD
 The Split method splits a string into an array of substrings
 The Split method returns the new arrauu
 The Split method does not change the original string
 
+REPEAT () METHOD
 Repeat method returns a string with a number of copies of a string
 Repeat method returns a new string
 Repeat method does not change the original string
+
+TRIM () METHOD
+The trim() method removes whitespace from both sides of a string.
+Trim() method does not change the original string

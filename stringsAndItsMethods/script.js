@@ -109,4 +109,5 @@ const dogSays = "woof "
 console.log(dogSays.repeat(6))
 
 //Trim () Method
-
+const trim = '  @example.com  '
+console.log(trim.trim())
