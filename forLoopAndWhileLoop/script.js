@@ -10,8 +10,7 @@ while (i < 10){
 
 // FOR LOOP
 
-// for ([initialization]; [ocndition]; final-expression)
-// statement
+// for ([initialization]; [ocndition]; [final-expression]; [statement])
 
 
 for(let i = 0; i < 10; i++) {
