@@ -11,7 +11,9 @@ const cohorts = [
 ];
 console.log(cohorts);
 
-const replaceEl = (cohorts[1] = 'Bash')
+const replaceEl = (cohorts[1]= 'Bash', cohorts[5] = 'babe')
+
+cohorts[8] = 'tolu'
 
 // ES5
 for(let i = 0; i < cohorts.length; i++) {
@@ -48,4 +50,17 @@ const arr = [
 
 ]
 console.log(typeof arr);
+
+// PUSH METHOD
+
+const student = ['Yemi', 'Sola', 'Grace', 'Maryam', 'Femi', 'Bola'];
+    student.push('Babe', 'food, bread, beans')
+    console.log(student)
+
+// POP METHOD
+
+const numbers = [3,4,5,6,7];
+numbers.pop();
+console.log(numbers)
+
 

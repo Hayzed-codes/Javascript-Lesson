@@ -5,3 +5,7 @@ Array is an object
 for of loop also works like for loop
 
 Replace: 
+Push method is used to add new element to  the end of an array
+
+Pop method is used to remove the last element from the end of an array
+
