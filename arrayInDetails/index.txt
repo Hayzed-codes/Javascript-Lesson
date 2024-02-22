@@ -19,4 +19,9 @@ Splice works in 3 dimension.
 
 => (2): This would just remove every other word from the number inserted in the parenthesis
 
-=> (2, 1): This would remove just one word from the consoled word
+=> (2, 1): This would remove just one word from the consoled word.
+
+Slice method (2, 5)=> This would exclude everything that is outside the index that is mentioned
+
+Slice that is listed as a ONE WORD would cut everything till it gets to the index inserted.
+
