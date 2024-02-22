@@ -232,3 +232,30 @@ console.log(totalVal);
 // Example 4
 
 _names.forEach((cong)=> console.log(`Congratulations! ${cong} unah dey smoke indian hemp`))
+
+// MAP Method ()
+
+
+
+const inventory = [
+    {name: "Rice", price: 4000},
+    {name: "Beans", price: 4000},
+    {name: "Garri", price: 4000},
+    {name: "Yam", price: 4000},
+    {name: "Amala", price: 4000},
+];
+
+const invent = inventory.map((value)=>{
+    return value.price
+} )
+
+console.log(invent);
+
+const food = inventory.map((comms)=> comms.name )
+
+console.log(food);
+
+const numu = [1, 3, 5, 8];
+
+const res = numu.map((x)=> x * 2)
+console.log(res);
