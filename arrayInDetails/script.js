@@ -158,14 +158,77 @@ console.log(desNum)
 
 // indexOf()
 
-const $number = [2, 1, 7, 4, 3, 6, 2, 9, 8, 4, 5, 3, 4, 8];
+const $number = [2, 1, 7, 4, 3, 6, 2, 9, 8, 7, 5, 3, 4, 8];
 console.log($number );
 
-const index1 = $number.indexOf(7);
+const index1 = $number.indexOf(7, 1);
 console.log(index1)
 
-const tutor = [ 'Abdullah', 'Naheem', 'Anate', 'Seyi', 'Soliu'];
+const tutor = [ 'Abdullah', 'Naheem', 'Anate', 'Seyi', 'Soliu', 'Abdullah'];
 console.log(tutor);
 
 const indexTt = tutor.indexOf('Abdullah');
 console.log(indexTt)
+
+const lastIndex = $number.lastIndexOf(2);
+console.log(lastIndex)
+
+const lastTutor = tutor.lastIndexOf('Abdullah');
+console.log(lastTutor)
+
+// LOOP ()
+
+const _names = ['Zainab', 'Bashirat', 'Nafeesah'];
+
+// ES5 STYLE
+for(let i = 0; i < _names.length; i++) {
+    console.log(i, _names[i])
+};
+
+// ES6 STYLE
+for(const _name of _names){
+    console.log(_name);
+}
+
+// FOR EACH()
+
+_names.forEach(function() {});
+
+_names.forEach((value, i, arr) => {
+    console.log(value.toUpperCase());
+    // console.log(i);
+    // console.log(arr);
+
+});
+
+
+// Example 1
+let _$numbers = [2, 3, 9, 8, 7, 9];
+
+_$numbers.sort();
+
+_$numbers.forEach(function(number, i) {
+    console.log(number, i);
+}) ;
+
+// Example 2
+
+let mammals = ['Goat', 'Man', 'Baboon', 'Dog'];
+
+console.log(mammals.sort());
+
+mammals.forEach((mammal, i)=> console.log(mammal.toUpperCase(), i));
+
+// Example 3
+let totalVal = 0
+const trans = [42, 45, 26, 4, 13, 16];
+
+trans.forEach((tran)=> {
+    console.log(totalVal, (totalVal += tran), tran);
+});
+
+console.log(totalVal);
+
+// Example 4
+
+_names.forEach((cong)=> console.log(`Congratulations! ${cong} unah dey smoke indian hemp`))
