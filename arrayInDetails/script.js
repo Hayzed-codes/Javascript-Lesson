@@ -148,3 +148,24 @@ num.sort();
 console.log(num)
 
 // CALL BACK FUNCTION () => {}
+
+const desNum = [5, 8, 0, 5, 7, 2, 1, 12, 77, 37, 94, 64, 20, 33, 67, 9];
+console.log(desNum)
+
+desNum.sort((a, b) => a -b);
+desNum.sort((a, b) => b -a);
+console.log(desNum)
+
+// indexOf()
+
+const $number = [2, 1, 7, 4, 3, 6, 2, 9, 8, 4, 5, 3, 4, 8];
+console.log($number );
+
+const index1 = $number.indexOf(7);
+console.log(index1)
+
+const tutor = [ 'Abdullah', 'Naheem', 'Anate', 'Seyi', 'Soliu'];
+console.log(tutor);
+
+const indexTt = tutor.indexOf('Abdullah');
+console.log(indexTt)

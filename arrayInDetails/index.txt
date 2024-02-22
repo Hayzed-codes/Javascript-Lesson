@@ -25,3 +25,6 @@ Slice method (2, 5)=> This would exclude everything that is outside the index th
 
 Slice that is listed as a ONE WORD would cut everything till it gets to the index inserted.
 
+indexOf is used to find the index of a first occurence of the first specified element of an array
+
+If an element is not found while checking for an indexOf, it will console -1.
