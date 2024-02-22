@@ -9,3 +9,14 @@ Push method is used to add new element to  the end of an array
 
 Pop method is used to remove the last element from the end of an array
 
+Shift removes the first element from the array
+
+Unshift adds an eement to the beginning of an array
+
+Splice works in 3 dimension.
+
+=> (2, 1, 'a', 'b'): This would determine where the new element would be placed. adds 2 words and remove one from the words written before
+
+=> (2): This would just remove every other word from the number inserted in the parenthesis
+
+=> (2, 1): This would remove just one word from the consoled word

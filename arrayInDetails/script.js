@@ -51,16 +51,46 @@ const arr = [
 ]
 console.log(typeof arr);
 
-// PUSH METHOD
+// ARRAY METHOD
+
+// PUSH ()
 
 const student = ['Yemi', 'Sola', 'Grace', 'Maryam', 'Femi', 'Bola'];
-    student.push('Babe', 'food, bread, beans')
+    student.push('Babe', 'food, bread, beans');
     console.log(student)
+    
 
-// POP METHOD
+// POP ()
 
 const numbers = [3,4,5,6,7];
 numbers.pop();
 console.log(numbers)
 
+// SHIFT ()
 
+const colors = ['Violet', 'Red', 'Blue', 'Black'];
+const rmFirst = colors.shift();
+console.log(rmFirst);
+console.log(colors)
+
+const month = ['March', 'July', 'September', 'January'];
+const adMonth = month.unshift('February');
+console.log(adMonth);
+console.log(month)
+
+const countries = ['Kenya', 'Malaysia', 'Canada', 'Qatar', 'Nigeria', 'Morro', 'Southy'];
+console.log(countries)
+
+countries.splice(3, 2, 'Egypt', 'Ghana');
+console.log(countries)
+
+const wears = ['Gucci', 'Versace', 'D&G', 'Nike', 'LV'];
+console.log(wears)
+
+
+
+const drink = ['coke', 'viju', 'Gin', 'Exotic', 'Bobo']
+console.log(drink)
+
+drink.splice(2, 1)
+console.log(drink)

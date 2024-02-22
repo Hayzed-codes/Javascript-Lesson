@@ -29,3 +29,5 @@ Repeat method does not change the original string
 TRIM () METHOD
 The trim() method removes whitespace from both sides of a string.
 Trim() method does not change the original string
+
+The () in all the methods can be considered in-built function
