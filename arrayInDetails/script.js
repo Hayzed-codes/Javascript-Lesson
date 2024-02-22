@@ -255,7 +255,18 @@ const food = inventory.map((comms)=> comms.name )
 
 console.log(food);
 
+// CLASS EXERCISE
+
 const numu = [1, 3, 5, 8];
 
 const res = numu.map((x)=> x * 2)
 console.log(res);
+
+// OR
+
+let double = [2, 5, 7, 4];
+let $double = double.map((mult) => {
+    return mult * 2
+
+});
+console.log($double)
