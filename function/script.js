@@ -80,17 +80,17 @@ function getScore() {
 
 console.log(getScore())
 
-// function getScore(num1, num2, name) {
+function getScore(num1, num2, name) {
 
-//     function add() {
-//         return`${name} is ${num1 + num2} years old` 
-//     }
+    function add() {
+        return`${name} is ${num1 + num2} years old` 
+    }
 
-//     return add();
+    return add();
 
-// }
+}
 
-// console.log(getScore(2, 3, 'DLT Africa'))
+console.log(getScore(2, 3, 'DLT Africa'))
 
 const nestedFunction = (a, b, c) => {
     
