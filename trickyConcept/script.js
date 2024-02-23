@@ -1,21 +1,21 @@
-// const name = "Zainab"
-// const age = 17
-// const school = "Agege Primary School, Orile"
+const name = "Zainab"
+const age = 17
+const school = "Agege Primary School, Orile"
 
 
-// const one = () => {
-//     return `${name} of ${age} years attended ${school}`;
-// }
+const one = () => {
+    return `${name} of ${age} years attended ${school}`;
+}
 
-// const answer = one()
-// console.log(answer)
+const answers = one()
+console.log(answers)
 
-// const file = () => {
-//     return `${name} likes eating ${age} wraps of Semo in ${school}`
-// }
+const file = () => {
+    return `${name} likes eating ${age} wraps of Semo in ${school}`
+}
 
-// const sentence = file ()
-// console.log(sentence)
+const sentence = file ()
+console.log(sentence)
 
 // // Local scope
 // const localScope = () => {
@@ -47,25 +47,25 @@ exampleThree()
 
 // Hoisting
 
-// const a = 2 // something here is similar to function expression and arrow function but it's not similar to function declaration
-// const b = 3
+const a = 2 // something here is similar to function expression and arrow function but it's not similar to function declaration
+const b = 3
 
-// const result = exampleFive()
-// console.log(result)
+const result = exampleFive()
+console.log(result)
 
-// function exampleFive(){
-//     return 2 + 2
-// }
+function exampleFive(){
+    return 2 + 2
+}
 
-// const exampleFive = ()  => {
-//     return 2 + 2
-// }
+const exampleFive = ()  => {
+    return 2 + 2
+}
 
-// const exampleFive = () => {
-//     return 2 + 2
-// }
+const exampleFive = () => {
+    return 2 + 2
+}
 
-// const me = function (){}
+const me = function (){}
 
 // const m = 2
 
@@ -85,23 +85,23 @@ exampleThree()
 
 // CLOSURE // The scope regarding a function inside a function
 
-// const outerFunction = () => {
-//     const ben = 5
+const outerFunctions = () => {
+    const ben = 5
 
-//     const innerFunction = () => {
-//         const man = 7
+    const innerFunction = () => {
+        const man = 7
 
-//         return ben + man
-//     }
+        return ben + man
+    }
 
 
-//     const final = innerFunction()
+    const final = innerFunction()
     
-//     console.log(final * 2)
+    console.log(final * 2)
     
-// }
+}
 
-// outerFunction()
+outerFunctions()
 
 
 const outerFunction = () => {
@@ -129,23 +129,23 @@ console.log(answer)
 
 // And in the main function, the final answer of the previous function should be divided by 2. ANSWER SHOULD BE IN CONSOLE
 
-// const mainFunction = () => {
-//     const a = 12;
-//     const b = 2;
+const mainFunction = () => {
+    const a = 12;
+    const b = 2;
 
-//     const subFunction = () => {
-//         const c = 4
+    const subFunction = () => {
+        const c = 4
 
-//         if (a) {
-//             return a * c
-//         }
+        if (a) {
+            return a * c
+        }
         
-//     }
-//     return subFunction() / b
+    }
+    return subFunction() / b
     
-// }
-// const anser = mainFunction()
-// console.log(anser)
+}
+const anser = mainFunction()
+console.log(anser)
 
 const firstFunc = () => {
     const div = 2
