@@ -27,3 +27,16 @@ const colors = ['red', 'green', 'blue', 'yellow', 'black']
 for(let i = 0; i < colors.length; i++){
     console.log(colors[i])
 }
+
+
+// To declare the loop function
+
+// ES5
+for(let i = 0; i < cohorts.length; i++) {
+    console.log(i, cohorts[i])
+}
+
+// ES6
+for(const list of cohorts) {
+    console.log(list)
+};
