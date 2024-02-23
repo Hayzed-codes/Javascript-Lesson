@@ -13,30 +13,30 @@
 
 // console.log(words, world, worlds)
 
-// const age = 12
-// const school = 'DLT'
-// const name = 'Eef'
+const age = 12
+const school = 'DLT'
+const firstName = 'Eef'
 
 
-// const sentence = `my name is ${name}, i am ${age} years old and i go to ${school} school`
+const sentence = `my name is ${firstName}, i am ${age} years old and i go to ${school} school`
 
-// console.log(sentence)
+console.log(sentence)
 
 
-// const math = "2 + 2"
+const math = "2 + 2"
 
-// const mathematic = `${2 + 2}`
+const mathematic = `${2 + 2}`
 
-// const lines = `1
-// 2
-// 3
-// 4
-// 5`
+const lines = `1
+2
+3
+4
+5`
 
-// console.log(lines)
+console.log(lines)
 
-// const numerals = `Hello, i'm Aliyu and i am from "Kogi state"`
-// console.log(numerals)
+const numerals = `Hello, i'm Aliyu and i am from "Kogi state"`
+console.log(numerals)
 
 // Checking the length of a string
 
@@ -88,9 +88,9 @@ console.log(exampleString.slice(-1))
 const sentenceOne = 'The quick brown fox jumped over the lazy dog';
 console.log(sentenceOne.split(' '));
 
-// const nameThree = 'Nofisat and Zainab'
-// const split11 = nameThree.split(' ')
-// console.log(split11);
+const nameThree = 'Nofisat and Zainab'
+const split11 = nameThree.split(' ')
+console.log(split11);
 
 // Reverse() and Join() Menthod
 const nameTwo = 'Nofisat and Zainab'
