@@ -366,7 +366,41 @@ const states = [
 ]
 
 const state = states.find((state) => {
-    return state.includes ('o')
+    return state.includes ('m')
 })
 
 console.log(state)
+
+
+// CLASS WORK
+
+// A student assessment took place, with a total mark of 10, Give us 7 students and mark them over 10, now give a reward to each students with a mark over the mark of 6
+
+const students = [
+    {name: 'Nafisat', score: 7},
+    {name: 'Hayzed', score: 8},
+    {name: 'Zainab', score: 4},
+    {name: 'Soliu', score: 9},
+    {name: 'Eef', score: 6},
+    {name: 'Kenny', score: 3},
+    {name: 'Oloye', score: 7},
+]
+
+const studAssess = students.filter((student) => {
+    if (student.score > 6) {
+        return true;
+    }
+  
+})
+
+console.log(studAssess)
+
+const studAssessName = studAssess.map((student) => {
+    return student.name
+})
+console.log(studAssessName)
+
+studAssessName.forEach ((reward) => {
+
+    console.log(`Congratulations! ${reward}, You have just been awarded a scholarship.`)
+})
