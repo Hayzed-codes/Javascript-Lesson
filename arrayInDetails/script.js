@@ -345,3 +345,28 @@ const aquaticAnimals = creatures.filter((creature) => {
 
 })
 console.log(aquaticAnimals)
+
+// ARRAY FIND
+
+const digits = [1,2,3,4,5,6,7,8,9]
+
+const value = digits.find((digits) => {
+    return digits > 4
+})
+
+console.log(value)
+
+
+const states = [
+    'Ogun State',
+    'Kogi State',
+    'Anambra State',
+    'Lagos State',
+    'Benue State',
+]
+
+const state = states.find((state) => {
+    return state.includes ('o')
+})
+
+console.log(state)
