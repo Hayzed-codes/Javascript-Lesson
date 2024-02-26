@@ -401,6 +401,25 @@ const studAssessName = studAssess.map((student) => {
 console.log(studAssessName)
 
 studAssessName.forEach ((reward) => {
-
     console.log(`Congratulations! ${reward}, You have just been awarded a scholarship.`)
 })
+
+
+// ARRAY SOME AND EVERY 
+
+const box =  [1,2,3,4,5,6,7]
+
+// SOME
+console.log(box.some((el) => {return el < 8}))
+
+// EVERY
+console.log(box.every((el) => {return el < 4}))
+
+// ARRAY REDUCE
+
+const boxes = [1,2,3,4,5,6,7,8,9,10]
+
+
+
+
+
