@@ -40,11 +40,14 @@ const division = (number) => {
 const answer = division(8)
 console.log(answer)
 
+
 const square2 = number => {return number * number}
 const result = square2(5)
 console.log(result)
 
 const square3 = number => number * number
+const resUlt = square3(3)
+console.log(resUlt)
 
 //const notAccepted = name , age => {}
 
@@ -72,7 +75,7 @@ function getScore() {
     const name = 'DLT Africa'
 
     function add() {
-        return`${name} is ${num1 + num2} years old` 
+        return `${name} is ${num1 + num2} years old` 
     }
     return add();
 
@@ -80,10 +83,11 @@ function getScore() {
 
 console.log(getScore())
 
+
 function getScore(num1, num2, name) {
 
     function add() {
-        return`${name} is ${num1 + num2} years old` 
+        return `${name} is ${num1 + num2} years old` 
     }
 
     return add();

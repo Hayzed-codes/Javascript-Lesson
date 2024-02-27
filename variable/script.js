@@ -53,8 +53,8 @@ let favoriteDrink = 'Bobo';
 const details = `My name is ${newName}, and my favorite drink is ${favoriteDrink}`;
 console.log(details);
 
-const numberOne = 45
-const numberTwo = 10
+const numberOne = 45;
+const numberTwo = 10;
 
 const add = numberOne + numberTwo
 console.log(add)

@@ -107,7 +107,7 @@ if (school < 10) {
     console.log("second period")
 }else if (school >= 12 && school < 13){
     console.log("break time")
-}else if(school >= 13 && school < 15) {
+}else if(school >= 13 && school < 15 ) {
     console.log("last period")
 }else{
     console.log("dey go your papa house")
@@ -138,7 +138,7 @@ switch (superHero) {
         break;
         case 'Thor':
             console.log("that is my hammer!")
-        break
+        break;
         case 'Captain America':
             console.log("Never give up!")
         break;

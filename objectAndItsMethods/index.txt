@@ -2,3 +2,4 @@ Objects are used to represent real life datas
 Object is an unordered collction of related data in form of key and value pairs
 
 To assess a property, we have the dot notation (.property) and the array method
+

@@ -18,22 +18,22 @@ const sentence = file ()
 console.log(sentence)
 
 // // Local scope
-// const localScope = () => {
-//     const name = "Oloye Pupo";
-//     const religion = "Muslim"
-//     const activity = "Drinking of wine"
+const localScope = () => {
+    const name = "Oloye Pupo";
+    const religion = "Muslim"
+    const activity = "Drinking of wine"
 
-//     return `${name} who is a ${religion} enjoys ${activity}`
-// }
+    return `${name} who is a ${religion} enjoys ${activity}`
+}
 
-// const oloye = localScope()
-// console.log(oloye)
+const oloye = localScope()
+console.log(oloye)
 
 // Block scope
 const religion = "christian"
 
 const exampleThree = () => {
-    const name = "chima"
+    const name = "Chima"
     if(true){
         // block scope
         const schoolName = "LASU"
@@ -57,13 +57,10 @@ function exampleFive(){
     return 2 + 2
 }
 
-const exampleFive = ()  => {
-    return 2 + 2
-}
 
-const exampleFive = () => {
-    return 2 + 2
-}
+// const exampleFive = () => {
+//     return 2 + 2
+// }
 
 const me = function (){}
 
