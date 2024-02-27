@@ -20,3 +20,7 @@ Object.seal prevents new props from being addded or removed
 we use the delete keyword to delete a property from an object
 
 Adding a function to an object. Only Function expression can be added to a particular object
+
+// Copying primitive values
+Javascript will behave as it is expected to behave. you just need to see what was the value of the variable at the time of the assignment
+

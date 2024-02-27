@@ -197,6 +197,68 @@ person.why = function() {
 person.why()
 
 
+// VALUE AND REFERENCE
+// Copying primitive values 
+// Copying complex values
 
 
+// Copying primitive values 
+// Copying numbers 
+// copying strings
 
+
+// Copying numbers 
+let x1 = 1;
+let y1 = x1;
+
+x1 = 2 
+console.log(x1)
+console.log(y1)
+
+
+// Copying String
+let firstPerson = "Soliu"
+let secondPerson = firstPerson
+
+firstPerson = "Austin";
+console.log(firstPerson)
+console.log(secondPerson)
+
+
+// Copying complex values
+// Copying arrays
+// Copying objects
+
+//Copying arrays
+
+const animals = ["dogs", "cats"];
+const otherAnimals = animals
+
+animals.push("Goat");
+console.log(otherAnimals)
+console.log(animals === otherAnimals)
+
+//  COpying objects
+
+const data = {
+    firstName: 'Zainab',
+    lastName: 'Abdullahi'
+}
+
+const otherData = data;
+console.log(otherData);
+console.log(data === otherData)
+
+
+// EQUALITY
+
+const person1 = {
+    firstName: "Oloye Pupo"
+}
+
+const otherPerson1 = {
+    firstName: "Oloye Pupo"
+}
+
+
+console.log(person1 === otherPerson1)
