@@ -51,7 +51,7 @@
 // ]
 // console.log(typeof arr);
 
-// // ARRAY METHOD
+/************************ ARRAY METHOD ***************************************/
 
 // // PUSH ()
 
@@ -233,8 +233,8 @@
 
 // _names.forEach((cong)=> console.log(`Congratulations! ${cong} unah dey smoke indian hemp`))
 
-// // MAP Method ()
 
+/************************ MAP METHOD() ***************************************/
 
 
 // const inventory = [
@@ -405,7 +405,7 @@ studAssessName.forEach ((reward) => {
 })
 
 
-// ARRAY SOME AND EVERY 
+/************************ ARRAY SOME AND EVERY ***************************************/
 
 const box =  [1,2,3,4,5,6,7]
 

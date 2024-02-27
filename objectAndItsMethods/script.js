@@ -76,6 +76,127 @@ const animal = {
 console.log(animal.name)
 animal.bark()
 
+/************************ OBJECT METHOD ***************************************/
+
+// OBJECT.keys()
+// OBJECT.value()
+// OBJECT.entries()
+// OBJECT.freeze()
+// OBJECT.seal()
+
+
+// Object.keys ()
 const employees = {
-    
+    boss: "Lateef",
+    secretary: "Nusirat",
+    sales: "Olamide",
+    account: "Opeymei",
+    cleaner: "Kolawole"
 }
+
+const employeeInfo = Object.keys(employees)
+console.log(employeeInfo);
+
+
+// Object.values()
+const session = {
+    firstPeriod: 0,
+    secondPeriod: "Mathematics",
+    break: 1.2,
+    forthPeriod: "Coding",
+}
+
+
+const sessionValue = Object.values(session)
+console.log(sessionValue);
+
+
+// Object.values
+const operatingSystem = {
+    model: "Apple",
+    type: "iPhone",
+    version: 17,
+}
+
+const operatingSystemInfo = Object.entries(operatingSystem)
+console.log(operatingSystemInfo)
+
+
+// Object.freeze
+
+const user = {
+    username: "Hayzed_codes",
+    password: 16061,
+}
+
+const userFreeze = Object.freeze(user);
+console.log(userFreeze)
+
+userFreeze.username = "soliu";
+console.log(userFreeze)
+
+// Object.seal
+const user1 = {
+    figurine: "Shrine",
+    alcohol: "Store",
+}
+
+const user1Details = Object.seal(user1);
+console.log(user1Details)
+
+user1Details.figurine = "Fela",
+user1Details.age = 40
+console.log(user1Details);
+
+
+let x
+
+const person = {
+    name: "AZ",
+    age: 35,
+    isAdmin: true,
+    address: {
+        street: "23 Unity and Peace Estate",
+        city: "Ilorin",
+        state: "Kwara"
+    },
+
+    hobbies: ["Music", "Sport"]
+
+}
+console.log(person);
+
+// Accessing an array inside an object
+
+x = person.hobbies[0]
+let y = person["hobbies"][1]
+
+
+console.log(x, y);
+
+// Updating a property
+
+person.name = "Hayzed"
+console.log(person);
+
+person.address.street = "Tanke Junction"
+console.log(person);
+
+// Delete
+delete person.address.state
+console.log(person);
+
+delete person.address.city
+console.log(person);
+
+//  How to add a function to an object. Only function expression is permissible
+
+person.why = function() {
+    console.log(`Hello, my name is ${this.name}`)
+} 
+person.why()
+
+
+
+
+

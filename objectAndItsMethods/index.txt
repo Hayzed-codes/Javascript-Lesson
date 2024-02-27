@@ -8,3 +8,15 @@ BUILT in method is a property that contains a function. it mostly contains funct
 Object.keys, Object.value, Object.entries, Object,freeze, Object.seal
 
 Object.keys create and return an array containing the keys of an Object
+
+Object.values create and return an array containing the value of an Object
+
+Object.entries creates a nested array of key and value pairs of an Object
+
+Object.freeze prevents modification of existing properties and prevents properties from being added or removed
+
+Object.seal prevents new props from being addded or removed
+
+we use the delete keyword to delete a property from an object
+
+Adding a function to an object. Only Function expression can be added to a particular object
