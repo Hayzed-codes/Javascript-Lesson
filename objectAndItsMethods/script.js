@@ -50,9 +50,32 @@ pet.petSound()
 const dog = {
     name: "Fluffy",
     age: 2,
-    listAllProperties:function(){
+    listAllProperties: function(){
         console.log(this.name, this.age)
     }
 }
 
+// console.log(dog.name, dog.age)
 dog.listAllProperties()
+
+const myObject = {
+    myMethod1: () => {}, // Arrow function
+    myMethod2: function(){}, // Function declaration
+    myMethod3() {},         // Function expression
+};
+
+const animal = {
+    name: "Fluffy Orange",
+    age: 10,
+
+    bark: () => {
+        console.log("Woof Woof")
+    }
+}
+
+console.log(animal.name)
+animal.bark()
+
+const employees = {
+    
+}

@@ -3,3 +3,8 @@ Object is an unordered collction of related data in form of key and value pairs
 
 To assess a property, we have the dot notation (.property) and the array method
 
+BUILT in method is a property that contains a function. it mostly contains function declaration method(). It is a property that contains a function. Function declaration() or Arrow Function()
+
+Object.keys, Object.value, Object.entries, Object,freeze, Object.seal
+
+Object.keys create and return an array containing the keys of an Object
