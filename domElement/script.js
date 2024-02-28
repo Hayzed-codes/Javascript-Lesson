@@ -11,7 +11,7 @@ const tag4 =  document.querySelectorAll('selectEl');
 
 const oneEl = document.querySelector('.selectorOne');
 
-const all = document.querySelector('#peleZainabu')
+const all = document.querySelector('#peleZainabu');
 
 const btn = document.querySelector('button');
 
