@@ -238,7 +238,7 @@ animals.push("Goat");
 console.log(otherAnimals)
 console.log(animals === otherAnimals)
 
-//  COpying objects
+//  Copying objects
 
 const data = {
     firstName: 'Zainab',

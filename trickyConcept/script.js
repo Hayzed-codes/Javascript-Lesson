@@ -2,7 +2,7 @@ const name = "Zainab"
 const age = 17
 const school = "Agege Primary School, Orile"
 
-
+console.log(`${name} is ${age} y/o when she finished from ${school}`)
 const one = () => {
     return `${name} of ${age} years attended ${school}`;
 }

@@ -1,0 +1,9 @@
+Shallow cloning na object wey mean say to create new object wey copy top level structrure of the original object but no be hin nested object or array. In other word, if the original content contains nested object, the shadow clone will create a new reference to those nested objects, rather than create new copies
+
+Shallow cloning is an object in javascript that creates a new object after copying the top level structure of the original object but not in its nested object or array. In other word, if the original content contains nested object, the shadow clone will create a new reference to those nested objects, rather than create new copies.
+
+Deep clone is an object in javascript. this means creating a new object that is
+entirely sepearated from the original object, such that change in the 
+new object do not affect the original and vice versa. this will create a new object but nested object will still be reference to the original one
+
+Json converts js method or method to string. durign the process, all references would be destroyed

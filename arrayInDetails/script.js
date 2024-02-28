@@ -156,7 +156,8 @@
 // desNum.sort((a, b) => b -a);
 // console.log(desNum)
 
-// // indexOf()
+/************************ INDEXOF ***************************************/
+
 
 // const $number = [2, 1, 7, 4, 3, 6, 2, 9, 8, 7, 5, 3, 4, 8];
 // console.log($number );
@@ -272,7 +273,8 @@
 // console.log($double)
 
 
-/// ARRAY FILTER
+/************************ ARRAY FILTER() ***************************************/
+
 
 const numbers = [-10, 0, 12, -2, 4, -9, 5, -8];
 
