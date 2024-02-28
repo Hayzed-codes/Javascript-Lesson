@@ -1,0 +1,3 @@
+This teaches us how to access html docs from js. you can manipulate elements in html from js.  
+We can target by (Query selector, Object connection, id, class, elements, tag name)
+
