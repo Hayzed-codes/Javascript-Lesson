@@ -1,0 +1,22 @@
+Oop is a programming style based on classes and object. 
+Note: Data (Properties)
+    Method (Action)
+
+it was developed to make code more  flexible and easier to maintain.
+
+Ways to create : Object literal & Object constructor
+
+the NEW keyword. craetes a new empty object
+
+The basic use case of the NEW keyword is for creating date, because it does not have any other syntax and it is a special object built into javascript 
+
+whenever you are creating anything in javascript, it is like you are creating an object extended off of a constructor
+
+THIS keyword. is used to reference the object that is executing the current function. In other words, every function has a reference to its current execution context
+
+constructor function (this)
+
+CLASS keyword. 
+This is a schema for an object that can save many, many, many values.just ass youu can define function declaration and function expression, a Class can be defined in 2 ways. 1: Class declaration and 2: Class expression
+
+getter function and method
