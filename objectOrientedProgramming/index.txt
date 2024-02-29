@@ -20,3 +20,23 @@ CLASS keyword.
 This is a schema for an object that can save many, many, many values.just ass youu can define function declaration and function expression, a Class can be defined in 2 ways. 1: Class declaration and 2: Class expression
 
 getter function and method
+
+DIFFerences between const and class
+const can only be used to create one object, while class can be used to create many objects
+
+Inheritance can be defined as the ability of a class to derive Properties and characteristics from another class while having its own Properties as well
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
