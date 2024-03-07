@@ -11,7 +11,7 @@ Pop method is used to remove the last element from the end of an array
 
 Shift removes the first element from the array
 
-Unshift adds an eement to the beginning of an array
+Unshift adds an element to the beginning of an array
 
 Splice works in 3 dimension.
 

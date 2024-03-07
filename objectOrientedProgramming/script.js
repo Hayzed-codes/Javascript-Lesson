@@ -296,6 +296,3 @@ console.log(dog)
 
 
 
-
-
-

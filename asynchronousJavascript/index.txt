@@ -1,0 +1,3 @@
+callback is  a function, passed as an argument to another function
+
+callback function is basically used to specify what should happen after a certain task should complete

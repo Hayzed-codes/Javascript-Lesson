@@ -66,14 +66,14 @@
 // numbers.pop();
 // console.log(numbers)
 
-// // SHIFT ()
+// SHIFT ()
 
 // const colors = ['Violet', 'Red', 'Blue', 'Black'];
 // const rmFirst = colors.shift();
 // console.log(rmFirst);
 // console.log(colors)
 
-// // UNSHIFT()
+// UNSHIFT()
 // const month = ['March', 'July', 'September', 'January'];
 // const adMonth = month.unshift('February');
 // console.log(adMonth);
@@ -159,10 +159,10 @@
 /************************ INDEXOF ***************************************/
 
 
-// const $number = [2, 1, 7, 4, 3, 6, 2, 9, 8, 7, 5, 3, 4, 8];
+// const $number = [1, 2, 7, 4, 3, 6, 2, 9, 8, 7, 5, 3, 2, 4, 8];
 // console.log($number );
 
-// const index1 = $number.indexOf(7, 1);
+// const index1 = $number.indexOf(3, 6);
 // console.log(index1)
 
 // const tutor = [ 'Abdullah', 'Naheem', 'Anate', 'Seyi', 'Soliu', 'Abdullah'];
@@ -179,7 +179,7 @@
 
 // // LOOP ()
 
-// const _names = ['Zainab', 'Bashirat', 'Nafeesah'];
+const _names = ['Zainab', 'Bashirat', 'Nafeesah'];
 
 // // ES5 STYLE
 // for(let i = 0; i < _names.length; i++) {
@@ -220,7 +220,7 @@
 
 // mammals.forEach((mammal, i)=> console.log(mammal.toUpperCase(), i));
 
-// // Example 3
+// Example 3
 // let totalVal = 0
 // const trans = [42, 45, 26, 4, 13, 16];
 
@@ -392,6 +392,7 @@ const studAssess = students.filter((student) => {
     if (student.score > 6) {
         return true;
     }
+    // return student.score > 6
   
 })
 
