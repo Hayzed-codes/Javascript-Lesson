@@ -130,7 +130,7 @@ const area1= new Shape1(10, 2)
 
 // ii --> unanonymous
 
-const BigBoy = class BIgie {
+const BigBoy = class Bigie {
     constructor(name, age) {
         this.name = name;
         this.age = age;

@@ -26,6 +26,7 @@ const user = fetchUser('test');
 console.log(user);
 
 
+
 const fetchUserOne = (username, callback) => {
     setTimeout(() => {
         console.log("Now we have the user");
@@ -135,13 +136,9 @@ const promise = new Promise((resolve, reject) => {
         console.log("Now we are in promise");
 
         resolve({username: "Bode"})
-        // reject("User not found")
+        reject("User not found")
     }, 5000);
-})
-
-promise
-
-.then((user) => console.log(user.username))
+}).then((user) => console.log(user.username))
 .catch((error) => console.log(error))
 
 
@@ -158,6 +155,7 @@ promise
 //    const fetchJson = await response.json();
 //    console.log(fetchJson);
 // }
+
 
 // const anotherFn = async () => {
 //     const data = await myFoolFunc();
@@ -217,8 +215,8 @@ const fetchSingleData = async () => {
       if(!response.ok) {
         throw new Error('Not found will fixed soon')
       }
-      const [userName] = await response.json() // assuming data is an array of user
-      const {username, email, name} = userData;
+      const userName = await response.json() // assuming data is an array of user
+      const {username, email, name} = userName;
       return {username, email, name};
   
     }catch (error) {
