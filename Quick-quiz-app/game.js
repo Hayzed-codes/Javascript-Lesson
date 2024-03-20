@@ -28,8 +28,9 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
 
     const answerChoices = [...loadingQuestion.incorrect_answers];
     formattedQuestion.answer = Math.floor(Math.random() * answerChoices.length) + 1;
+
     answerChoices.splice(
-      formattedQuestion.question - 1,
+      formattedQuestion.answer - 1,
       0,
       loadingQuestion.correct_answer
     );
@@ -72,7 +73,7 @@ const startGame = () => {
 
 const getNewQuestion = () => {
   if(availableQuestion.length === 0 || questionCounter >= MAX_QUESTIONS) {
-    localStorage.setItem("mostRecentScore", score);
+    localStorage.setItem("mostRecentScore", score); // This will take you to the mostRecentScore. This will show you the
     return window.location.assign("./end.html")
   }
     questionCounter++;

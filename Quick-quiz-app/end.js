@@ -29,6 +29,7 @@ const saveHighScore = () => {
     localStorage.setItem('highScore', JSON.stringify(highScores));
     window.location.assign("./index.html")  // here, allowed us to returned to the homepage once we save the scores
 }  
+
 saveScoreBtn.addEventListener('click', (event) => {
     event.preventDefault();
     saveHighScore()  //this allow the save btn to be clickable once we input the username scores finish
